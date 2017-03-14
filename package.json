@@ -1,0 +1,18 @@
+{
+  "name": "reload-web",
+  "version": "1.0.0",
+  "description": "This is a front end boilerplate using nodejs as a web server to serve static files and watches for changes. for the changes to take effect the page simply needs to be reloaded ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Bednarski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0"
+  },
+  "scripts":{
+    "start": "nodemon index.js"
+  }
+}
